@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Formatação do menu do meu odio*/
+#menu-h {
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+#menu-h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+
+}
+#menu-h li{
+    display: inline-block;
+    text-transform: uppercase;
+    float: left;
+    position: relative;
+}
+
+#menu-h li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#menu-h li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    transition: background .4s;
+}
+
+#menu-h li a:hover{
+    color: orangered;
+    background-color: rgb(255, 198, 169);
+
+}
+/*submenu*/
+.menu li{
+    background-color: black;
+}

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+ul#fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    list-style: none;
+    overflow: hidden;
+
+}
+
+ul#fotos li{
+    top: 30px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(243, 161, 131);
+    box-shadow: 1px 1px 3px black;
+    float: left;
+    margin: 10px;
+}
+ul#fotos li:hover span{
+    opacity: 1;
+}
+ul#fotos li:hover {
+    -webkit-transform: scale(1.5);
+    -webkit-transition: all 0.4s ease-in;
+}
+
+ul#fotos li#foto1{
+    background: url(../_fotos/bologira.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 600px;
+    background-color: white;
+}
+ul#fotos li#foto1:hover{
+    background-position: 0px 0px;
+    background-size: 200px;
+}
+
+ul#fotos li#foto2{
+    background: url(../_fotos/bologira.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 600px;
+    background-color: white;
+}
+
+ul#fotos li#foto3{
+    background: url(../_fotos/bologira.jpg);
+}
+ul#fotos li#foto4{
+    background: url(../_fotos/bologira.jpg);
+}
+
+span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px black;
+    background-color: rgb(0, 0, 0, 0.5);
+    line-height: 370px;
+    padding: 5px;
+}

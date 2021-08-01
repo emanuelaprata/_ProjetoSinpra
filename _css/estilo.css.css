@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Fontetitulo';
+    src: url(../_fontes/KronaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Fontcorpo';
+    src: url(../_fontes/SourceSansPro-Regular.ttf);
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box 0px;
+    font-family: 'Fontcorpo';
+}
+
+/*Formatação do Menu*/
+#menu {
+    list-style: none;
+    padding: 0;
+    background-color: white;
+}
+
+#menu li{
+    display: inline-block;
+    margin-top: 10;
+    margin-bottom: auto;
+}
+
+#menu li a{
+    padding: 30px;
+    display: inline-block;
+    color: rgb(2, 2, 2);
+    text-decoration: none;  
+    transition: background .1s;  
+}
+#menu li a:hover{
+    color: orangered; 
+}
+
+div#oi {
+    position: absolute;
+    top:0px;
+    font-size: 30%;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    width: 1368px;
+    margin: 0px -15px 0px -10px;
+    font-family: Arial;
+}
+
+
+#logo{
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    position: relative;
+}
+/* Formatação do cabeçalho*/
